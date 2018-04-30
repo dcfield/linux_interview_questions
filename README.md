@@ -44,3 +44,6 @@
 
 ## 10. What can you do when you can't find your answer in `man`?
 - Google, stackoverflow, serverfault
+
+## 11. How can you search for a file?
+- `find / -type f -name "filename"`
