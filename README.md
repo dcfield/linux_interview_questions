@@ -1,5 +1,7 @@
 # Linux Interview Questions
 
+A list of gathered interview questions relating to operating linux.
+
 ## 1. How can you see which kernel version a system is currently running?
 - `uname` prints system info
 - `uname -a` prints all system info (host name, os, kernel, kernel version, release, architecture etc.)
