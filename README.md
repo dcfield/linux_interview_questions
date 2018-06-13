@@ -49,3 +49,32 @@ A list of gathered interview questions relating to operating linux.
 
 ## 11. How can you search for a file?
 - `find / -type f -name "filename"`
+
+## 12. sudo shortcut
+- Oops, I forgot to add `sudo` to the start of my command!
+- Use `sudo !!` to call your previous command with sudo attached.
+
+## 13. Killing and yanking text (cut and paste)
+- `ctrl + k` cuts from your current position in the cmd line to the end.
+- `ctrl + u` cuts from current position to the beginning of the line.
+- `ctrl + w` kills the previous word.
+- To yank back, use `ctrl + y`.
+
+### Example of a use
+- Say you type the command `find /var/log -type f -mtime +1`
+- You realise that you need to `sudo`.
+- `ctrl + u` cuts to the beginning of the line.
+- Type `sudo` and `ctrl + y`.
+- ie. `ctrl + u` + `sudo ` + `ctrl + y`.
+
+## 14. Continue editing in text editor (uses $EDITOR)
+- Use `ctrl + x + e` to continue editing in text editor.
+- Editor is defined as `$EDITOR`.
+
+## 15. Paste argument of previous command
+- Say you use `ping 8.8.8.8`.
+- Use `alt + .` to get the argument of your last successful command. In this case `8.8.8.8`.
+
+## 16. Unbork your terminal
+- Got a messed up temrinal?
+- `reset`
